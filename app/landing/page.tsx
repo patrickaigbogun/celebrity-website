@@ -4,6 +4,7 @@ import Fanclub from "./components/sections/Fanclub";
 import Contactus from "./components/sections/Contactus";
 
 
+
 export default function PageLanding() {
 	return (
 		<>

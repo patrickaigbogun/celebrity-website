@@ -20,8 +20,8 @@ export default function Fanclub() {
 								$0
 							</h1>
 							<ul className="list-unstyled mt-3 mb-4">
-								<li>10 users included</li>
-								<li>2 GB of storage</li>
+								<li>some perks</li>
+								<li>more perks</li>
 								<li>Email support</li>
 								<li>Help center access</li>
 							</ul>
@@ -43,8 +43,8 @@ export default function Fanclub() {
 								$15
 							</h1>
 							<ul className="list-unstyled mt-3 mb-4">
-								<li>20 users included</li>
-								<li>10 GB of storage</li>
+								<li>20 selfies </li>
+								<li>even more perks</li>
 								<li>Priority email support</li>
 								<li>Help center access</li>
 							</ul>
@@ -66,10 +66,10 @@ export default function Fanclub() {
 								$29
 							</h1>
 							<ul className="list-unstyled mt-3 mb-4">
-								<li>30 users included</li>
-								<li>15 GB of storage</li>
+								<li>30 feet videos</li>
+								<li>15 GB folder</li>
 								<li>Phone and email support</li>
-								<li>Help center access</li>
+								<li>all you can eat access</li>
 							</ul>
 							<button
 								type="button"
@@ -87,16 +87,16 @@ export default function Fanclub() {
 				<table className="table text-center">
 					<thead>
 						<tr>
-							<th className="th"></th>
-							<th className="th">Free</th>
-							<th className="th">Pro</th>
-							<th className="th">Enterprise</th>
+							<th className="th">Priviledge</th>
+							<th className="th">Free Membership</th>
+							<th className="th">Initiate</th>
+							<th className="th">Inner Circle</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<th scope="row" className="text-start">
-								Public
+								something
 							</th>
 							<td>
 								<svg className="bi" width="24" height="24">
@@ -116,7 +116,7 @@ export default function Fanclub() {
 						</tr>
 						<tr>
 							<th scope="row" className="text-start">
-								Private
+							something
 							</th>
 							<td></td>
 							<td>
@@ -135,7 +135,7 @@ export default function Fanclub() {
 					<tbody>
 						<tr>
 							<th scope="row" className="text-start">
-								Permissions
+							something
 							</th>
 							<td>
 								<svg className="bi" width="24" height="24">
@@ -155,23 +155,7 @@ export default function Fanclub() {
 						</tr>
 						<tr>
 							<th scope="row" className="text-start">
-								Sharing
-							</th>
-							<td></td>
-							<td>
-								<svg className="bi" width="24" height="24">
-									<use xlinkHref="#check" />
-								</svg>
-							</td>
-							<td>
-								<svg className="bi" width="24" height="24">
-									<use xlinkHref="#check" />
-								</svg>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row" className="text-start">
-								Unlimited members
+							something
 							</th>
 							<td></td>
 							<td>
@@ -187,7 +171,23 @@ export default function Fanclub() {
 						</tr>
 						<tr>
 							<th scope="row" className="text-start">
-								Extra security
+							something
+							</th>
+							<td></td>
+							<td>
+								<svg className="bi" width="24" height="24">
+									<use xlinkHref="#check" />
+								</svg>
+							</td>
+							<td>
+								<svg className="bi" width="24" height="24">
+									<use xlinkHref="#check" />
+								</svg>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row" className="text-start">
+							something
 							</th>
 							<td></td>
 							<td></td>

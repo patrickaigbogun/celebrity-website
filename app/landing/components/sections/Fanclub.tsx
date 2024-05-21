@@ -80,8 +80,10 @@ export default function Fanclub() {
 					</div>
 				</div>
 			</div>
+			<br /><br />
 
 			<h2 className="display-6 text-center mb-4">Compare plans</h2>
+			<br /><br /><br /><br />
 
 			<div className="table-responsive">
 				<table className="table text-center">

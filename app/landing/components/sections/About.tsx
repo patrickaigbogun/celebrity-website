@@ -1,6 +1,6 @@
 export default function About() {
 	return (
-		<section className="home p-5 mb-4 pt-5 my-5" id="about">
+		<section className="p-5 mb-4 pt-5 my-5" id="about">
 			<div className="container-fluid py-5">
 				<h1 className="display-5 fw-bold">About</h1>
 				<p className="col-md-8 fs-4">

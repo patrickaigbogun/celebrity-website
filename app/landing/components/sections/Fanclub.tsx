@@ -7,20 +7,17 @@ export default function Fanclub() {
 					<path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
 				</symbol>
 			</svg>
-			<h1 className="display-6 text-center mb-4 fw-bold">Fan Club</h1>
+			<h1 className="display-6 text-center mb-4 fw-bold">Membership Access</h1> <br /><br /><br /><br />
 
 			<div className="row mb-3 text-center ">
 				<div className="col-md-4">
 					<div className="card mb-4 rounded-3 shadow-sm">
 						<div className="card-header py-3">
-							<h4 className="my-0 fw-normal">Free</h4>
+							<h4 className="my-0 fw-normal">Free Membership Access</h4>
 						</div>
 						<div className="card-body">
 							<h1 className="card-title pricing-card-title">
 								$0
-								<small className="text-muted fw-light">
-									/mo
-								</small>
 							</h1>
 							<ul className="list-unstyled mt-3 mb-4">
 								<li>10 users included</li>
@@ -30,7 +27,7 @@ export default function Fanclub() {
 							</ul>
 							<button
 								type="button"
-								className="w-100 btn btn-lg btn-outline-primary">
+								className="w-100 btn btn-lg btn-primary">
 								Sign up for free
 							</button>
 						</div>
@@ -39,14 +36,11 @@ export default function Fanclub() {
 				<div className="col-md-4">
 					<div className="card mb-4 rounded-3 shadow-sm">
 						<div className="card-header py-3">
-							<h4 className="my-0 fw-normal">Pro</h4>
+							<h4 className="my-0 fw-normal">Initiate Membership Access</h4>
 						</div>
 						<div className="card-body">
 							<h1 className="card-title pricing-card-title">
 								$15
-								<small className="text-muted fw-light">
-									/mo
-								</small>
 							</h1>
 							<ul className="list-unstyled mt-3 mb-4">
 								<li>20 users included</li>
@@ -63,16 +57,13 @@ export default function Fanclub() {
 					</div>
 				</div>
 				<div className="col-md-4">
-					<div className="card mb-4 rounded-3 shadow-sm border-primary">
-						<div className="card-header py-3 text-white bg-primary border-primary">
-							<h4 className="my-0 fw-normal">Enterprise</h4>
+					<div className="card mb-4 rounded-3 shadow-sm ">
+						<div className="card-header py-3 ">
+							<h4 className="my-0 fw-normal">Inner Circle Access</h4>
 						</div>
 						<div className="card-body">
 							<h1 className="card-title pricing-card-title">
 								$29
-								<small className="text-muted fw-light">
-									/mo
-								</small>
 							</h1>
 							<ul className="list-unstyled mt-3 mb-4">
 								<li>30 users included</li>

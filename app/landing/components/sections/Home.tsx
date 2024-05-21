@@ -1,6 +1,6 @@
 export default function Home() {
 	return (
-		<section className="home px-4 pt-5 my-5 text-center border-bottom" id="home">
+		<section className="px-4 pt-5 my-5 text-center" id="home">
   <h1 className="visually-hidden">Home</h1>
 
 <div className="px-4 py-5 my-5 text-center">

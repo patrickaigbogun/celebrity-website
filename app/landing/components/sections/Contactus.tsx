@@ -12,6 +12,7 @@ export default function Contactus() {
                 className="form-control"
                 id="firstName"
                 name="firstName"
+                required
               />
             </div>
             <div className="mb-3">
@@ -21,6 +22,7 @@ export default function Contactus() {
                 className="form-control"
                 id="lastName"
                 name="lastName"
+                required
               />
             </div>
             <div className="mb-3">
@@ -31,6 +33,7 @@ export default function Contactus() {
                 id="InputEmail1"
                 name="email"
                 aria-describedby="emailHelp"
+                required
               />
               <div id="emailHelp" className="form-text">We would never share your email with anyone else.</div>
             </div>
@@ -41,11 +44,12 @@ export default function Contactus() {
                 className="form-control"
                 id="subject"
                 name="subject"
+                required
               />
             </div>
             <div className="mb-3">
               <label htmlFor="message" className="form-label">Message</label>
-              <textarea className="form-control" id="message" name="message"></textarea>
+              <textarea className="form-control" id="message" name="message" required></textarea>
             </div>
             <div>
               <button type="submit" className="btn btn-primary">Submit</button>

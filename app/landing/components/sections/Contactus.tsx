@@ -1,6 +1,6 @@
 export default function Contactus() {
 	return (
-		<section className="home container-md mb-4 pt-5 my-5" id="contact">
+		<section className="container mb-4 pt-5 my-5" id="contact">
 			<h1 className="display-7 text-center mb-4 fw-bold" >Contact & Booking</h1>
       <div>
         <div className="bd-example">

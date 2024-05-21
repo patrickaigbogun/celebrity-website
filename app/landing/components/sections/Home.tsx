@@ -4,7 +4,7 @@ export default function Home() {
   <h1 className="visually-hidden">Home</h1>
 
 <div className="px-4 py-5 my-5 text-center">
-  <img className="d-block mx-auto mb-4" src="../assets/brand/bootstrap-logo.svg" alt="Your logo" width="72" height="57"></img>
+  <img className="d-block mx-auto mb-4" src="" alt="Your logo" width="72" height="57"></img>
   <h1 className="display-5 fw-bold">Home</h1>
   <div className="col-lg-6 mx-auto">
     <p className="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 

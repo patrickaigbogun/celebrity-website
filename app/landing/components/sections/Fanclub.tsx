@@ -1,3 +1,6 @@
+import React from "react";
+import Checkout from "./Checkout";
+
 export default function Fanclub() {
 	return (
 		<section className="home container-md mb-4 pt-5 my-5" id="fanclub">
@@ -81,6 +84,8 @@ export default function Fanclub() {
 				</div>
 			</div>
 			<br /><br />
+
+			<Checkout/><br /><br />
 
 			<h2 className="display-6 text-center mb-4">Compare plans</h2>
 			<br /><br /><br /><br />

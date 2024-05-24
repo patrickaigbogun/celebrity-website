@@ -60,7 +60,7 @@ export default function Fanclub() {
 
 			<Checkout/><br /><br />
 
-			<h2 className="display-6 text-center mb-4">Compare plans</h2>
+			<h2 className="display-6 text-center mb-4 fw-semibold">Compare plans</h2>
 			<br /><br /><br /><br />
 
 			<div className="table-responsive">

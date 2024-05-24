@@ -20,7 +20,6 @@ export default function Checkoutmodal() {
 			<br /><br />
 			
 			<span><h5>Follow these steps for a successful transaction</h5></span>
-			<p>
 				<ol>
 					<li>Copy the adddress above</li>
 					<li>make a transfer of crypto worth the amount in USD for the membership you wish to acquire <br />
@@ -29,7 +28,6 @@ export default function Checkoutmodal() {
 					<li>Transfer proof of funds to this telegram provided. Click the button below that says telegram.</li>
 					
 				</ol>
-			</p>
 		</div>
 	);
 }

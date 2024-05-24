@@ -1,12 +1,19 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Header() {
 	return (
 		<header className="d-flex flex-wrap justify-content-center py-3 mb-4 ">
 			<nav className=" navbar navbar-expand-md navelement text-center fixed-top">
-				<div className="container-fluid">
+				<div className="container-fluid w-75">
 					<a className="navbar-brand text-decoration-none text-reset" href="#">
-						Patrick
+					<Image
+					className="d-block mx-auto mb-0"
+					src="/logo-dark-wbg.svg"
+					alt="Your logo"
+					width={75}
+					height={75}
+				/>
 					</a>
 					<button
 						className="navbar-toggler"

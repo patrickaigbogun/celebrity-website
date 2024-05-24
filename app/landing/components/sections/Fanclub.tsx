@@ -13,30 +13,7 @@ export default function Fanclub() {
 			<h1 className="display-6 text-center mb-4 fw-bold">Membership Access</h1> <br /><br /><br /><br />
 
 			<div className="row mb-3 text-center ">
-				<div className="col-md-4">
-					<div className="card mb-4 rounded-3 shadow-sm">
-						<div className="card-header py-3">
-							<h4 className="my-0 fw-normal">Free Membership Access</h4>
-						</div>
-						<div className="card-body">
-							<h1 className="card-title pricing-card-title">
-								$0
-							</h1>
-							<ul className="list-unstyled mt-3 mb-4">
-								<li>some perks</li>
-								<li>more perks</li>
-								<li>Email support</li>
-								<li>Help center access</li>
-							</ul>
-							<button
-								type="button"
-								className="w-100 btn btn-lg btn-primary">
-								Sign up for free
-							</button>
-						</div>
-					</div>
-				</div>
-				<div className="col-md-4">
+				<div className="col-md-6">
 					<div className="card mb-4 rounded-3 shadow-sm">
 						<div className="card-header py-3">
 							<h4 className="my-0 fw-normal">Initiate Membership Access</h4>
@@ -51,15 +28,13 @@ export default function Fanclub() {
 								<li>Priority email support</li>
 								<li>Help center access</li>
 							</ul>
-							<button
-								type="button"
-								className="w-100 btn btn-lg btn-primary">
+							<button type="button" className="w-50 btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
 								Get started
 							</button>
 						</div>
 					</div>
 				</div>
-				<div className="col-md-4">
+				<div className="col-md-6">
 					<div className="card mb-4 rounded-3 shadow-sm ">
 						<div className="card-header py-3 ">
 							<h4 className="my-0 fw-normal">Inner Circle Access</h4>
@@ -74,10 +49,8 @@ export default function Fanclub() {
 								<li>Phone and email support</li>
 								<li>all you can eat access</li>
 							</ul>
-							<button
-								type="button"
-								className="w-100 btn btn-lg btn-primary">
-								Contact us
+							<button type="button" className="w-50 btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+								Get started
 							</button>
 						</div>
 					</div>

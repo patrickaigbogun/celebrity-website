@@ -28,7 +28,7 @@ export default function Fanclub() {
 								<li>Priority email support</li>
 								<li>Help center access</li>
 							</ul>
-							<button type="button" className="w-50 btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+							<button type="button" className="w-50 btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
 								Get started
 							</button>
 						</div>
@@ -49,7 +49,7 @@ export default function Fanclub() {
 								<li>Phone and email support</li>
 								<li>all you can eat access</li>
 							</ul>
-							<button type="button" className="w-50 btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+							<button type="button" className="w-50 btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
 								Get started
 							</button>
 						</div>

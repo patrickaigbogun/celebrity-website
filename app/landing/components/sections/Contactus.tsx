@@ -75,7 +75,7 @@ export default function Contactus() {
 								required></textarea>
 						</div>
 						<div>
-							<button type="submit" className="btn btn-primary">
+							<button type="submit" className="btn btn-dark">
 								Submit
 							</button>
 						</div>

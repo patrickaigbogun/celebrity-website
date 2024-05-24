@@ -10,13 +10,13 @@ export default function Fanclub() {
 					<path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
 				</symbol>
 			</svg>
-			<h1 className="display-6 text-center mb-4 fw-bold">Membership Access</h1> <br /><br /><br /><br />
+			<h1 className="display-6 text-center mb-4 fw-bold">Membership Access</h1> <br /><br />
 
-			<div className="row mb-3 text-center ">
+			<div className=" row mb-3 text-center ">
 				<div className="col-md-6">
 					<div className="card mb-4 rounded-3 shadow-sm">
 						<div className="card-header py-3">
-							<h4 className="my-0 fw-normal">Initiate Membership Access</h4>
+							<h4 className="my-0 fw-semibold">Tier 1</h4>
 						</div>
 						<div className="card-body">
 							<h1 className="card-title pricing-card-title">
@@ -29,7 +29,7 @@ export default function Fanclub() {
 								<li>Help center access</li>
 							</ul>
 							<button type="button" className="w-50 btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
-								Get started
+								Pay 15USD
 							</button>
 						</div>
 					</div>
@@ -37,7 +37,7 @@ export default function Fanclub() {
 				<div className="col-md-6">
 					<div className="card mb-4 rounded-3 shadow-sm ">
 						<div className="card-header py-3 ">
-							<h4 className="my-0 fw-normal">Inner Circle Access</h4>
+							<h4 className="my-0 fw-semibold">Tier 2</h4>
 						</div>
 						<div className="card-body">
 							<h1 className="card-title pricing-card-title">
@@ -50,7 +50,7 @@ export default function Fanclub() {
 								<li>all you can eat access</li>
 							</ul>
 							<button type="button" className="w-50 btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
-								Get started
+								Pay 29USD
 							</button>
 						</div>
 					</div>

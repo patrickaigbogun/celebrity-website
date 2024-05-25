@@ -1,17 +1,21 @@
 import React from "react";
 
-export default function Contactus() {
+export default function ContactUs() {
 	return (
 		<section
-			className="container pt-5 d-flex justify-content-center"
-			id="contact">
-			<div className="w-100 border containder-fluid rounded-2 shadow my-5 py-5" style={{ maxWidth: "85%" }}>
+			className="row pt-5 container-fluid justify-content-center px-3"
+			id="contact"
+		>
+			<div
+				className="col-12 col-md-9 col-lg-8 border rounded-2 shadow p-4 bg-light"
+				style={{ boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)" }}
+			>
 				<h1 className="display-7 text-center mb-4 fw-bold">
 					Contact & Booking
 				</h1>
-				<div className="row justify-content-center">
-					<form className="col-12 col-md-9 col-lg-8">
-						<div className="mb-3  ">
+				<div className="p-3">
+					<form className="p-3 rounded">
+						<div className="mb-3">
 							<label htmlFor="firstName" className="form-label fw-bold">
 								First Name
 							</label>
@@ -48,8 +52,7 @@ export default function Contactus() {
 								required
 							/>
 							<div id="emailHelp" className="form-text">
-								We would never share your email with anyone
-								else.
+								We would never share your email with anyone else.
 							</div>
 						</div>
 						<div className="mb-3">
@@ -72,9 +75,10 @@ export default function Contactus() {
 								className="form-control"
 								id="message"
 								name="message"
-								required></textarea>
+								required
+							></textarea>
 						</div>
-						<div>
+						<div className="text-center">
 							<button type="submit" className="btn btn-dark">
 								Submit
 							</button>

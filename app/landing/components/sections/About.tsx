@@ -16,7 +16,7 @@ export default function About() {
 					dolorum dolores doloremque culpa vel saepe! 
 					Minus sed deleniti nihil repudiandae neque! Doloremque?
 				</p>
-				<button className="btn btn-dark btn-lg" type="button" >
+				<button className="shadow btn btn-dark btn-lg" type="button" >
 					<a className="text-decoration-none text-reset" href="#contact">Send a message</a>
 				</button>
 			</div>

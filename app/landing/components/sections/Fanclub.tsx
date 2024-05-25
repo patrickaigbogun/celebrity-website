@@ -14,7 +14,7 @@ export default function Fanclub() {
 
 			<div className=" row mb-3 text-center ">
 				<div className="col-md-6">
-					<div className="card mb-4 rounded-3 shadow-sm">
+					<div className="card mb-4 rounded-3 shadow">
 						<div className="card-header py-3">
 							<h4 className="my-0 fw-semibold">Tier 1</h4>
 						</div>
@@ -28,14 +28,14 @@ export default function Fanclub() {
 								<li>Priority email support</li>
 								<li>Help center access</li>
 							</ul>
-							<button type="button" className="w-50 btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+							<button type="button" className="shadow w-50 btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#staticBackdropLive">
 								Pay 15USD
 							</button>
 						</div>
 					</div>
 				</div>
 				<div className="col-md-6">
-					<div className="card mb-4 rounded-3 shadow-sm ">
+					<div className="card mb-4 rounded-3 shadow ">
 						<div className="card-header py-3 ">
 							<h4 className="my-0 fw-semibold">Tier 2</h4>
 						</div>
@@ -49,7 +49,7 @@ export default function Fanclub() {
 								<li>Phone and email support</li>
 								<li>all you can eat access</li>
 							</ul>
-							<button type="button" className="w-50 btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+							<button type="button" className="shadow w-50 btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#staticBackdropLive">
 								Pay 29USD
 							</button>
 						</div>
@@ -63,8 +63,8 @@ export default function Fanclub() {
 			<h2 className="display-6 text-center mb-4 fw-semibold">Compare plans</h2>
 			<br /><br /><br /><br />
 
-			<div className="table-responsive">
-				<table className="table text-center">
+			<div className="mx-3 shadow table-responsive">
+				<table className=" mb-0 table text-center">
 					<thead>
 						<tr>
 							<th className="th">Priviledge</th>

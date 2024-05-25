@@ -25,10 +25,10 @@ export default function Home({}:Props) {
 					<div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
 						<button
 							type="button"
-							className="btn btn-dark btn-lg px-4 gap-3">
+							className=" shadow btn btn-dark btn-lg px-4 gap-3">
 							Explore
 						</button>
-						<button type="button" className="btn btn-outline-dark btn-lg gap-3 px-4">
+						<button type="button" className="shadow btn btn-outline-dark btn-lg gap-3 px-4">
 							Telegram
 							<svg className="bi" width="24" height="24">
 								<use xlinkHref="#telegram" />

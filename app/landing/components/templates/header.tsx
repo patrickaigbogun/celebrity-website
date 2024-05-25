@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Header() {
 	return (
 		<header className="d-flex flex-wrap justify-content-center py-3 mb-4 ">
-			<nav className=" navbar navbar-expand-md navelement text-center fixed-top">
+			<nav className=" navbar navbar-expand-md navelement text-center fixed-top shadow">
 				<div className="container-fluid w-75">
 					<a className="navbar-brand text-decoration-none text-reset" href="#">
 					<Image

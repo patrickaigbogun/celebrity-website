@@ -3,9 +3,9 @@ import React from "react";
 export default function Contactus() {
 	return (
 		<section
-			className="container mb-4 pt-5 my-5 d-flex justify-content-center"
+			className="container pt-5 d-flex justify-content-center"
 			id="contact">
-			<div className="w-100" style={{ maxWidth: "85%" }}>
+			<div className="w-100 border containder-fluid rounded-2 shadow my-5 py-5" style={{ maxWidth: "85%" }}>
 				<h1 className="display-7 text-center mb-4 fw-bold">
 					Contact & Booking
 				</h1>

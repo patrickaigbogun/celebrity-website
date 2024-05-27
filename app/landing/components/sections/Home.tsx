@@ -1,10 +1,9 @@
 import Image from "next/image";
 
-type Props = {}
-export default function Home({}:Props) {
+type Props = {};
+export default function Home({}: Props) {
 	return (
 		<section className="px-4 pt-0 my-1 text-center" id="home">
-
 			<div className="px-4 py-5 my-5 text-center">
 				<Image
 					className="d-block mx-auto mb-4"
@@ -28,7 +27,9 @@ export default function Home({}:Props) {
 							className=" shadow btn btn-dark btn-lg px-4 gap-3">
 							Explore
 						</button>
-						<button type="button" className="shadow btn btn-outline-dark btn-lg gap-3 px-4">
+						<button
+							type="button"
+							className="shadow btn btn-outline-dark btn-lg gap-3 px-4">
 							Telegram
 							<svg className="bi" width="24" height="24">
 								<use xlinkHref="#telegram" />

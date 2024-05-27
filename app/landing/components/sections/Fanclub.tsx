@@ -10,8 +10,11 @@ export default function Fanclub() {
 					<path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
 				</symbol>
 			</svg>
-			<h1 className="display-6 text-center mb-4 fw-bold">Membership Access</h1> <br /><br />
-
+			<h1 className="display-6 text-center mb-4 fw-bold">
+				Membership Access
+			</h1>{" "}
+			<br />
+			<br />
 			<div className=" row mb-3 text-center ">
 				<div className="col-md-6">
 					<div className="card mb-4 rounded-3 shadow">
@@ -28,7 +31,11 @@ export default function Fanclub() {
 								<li>Priority email support</li>
 								<li>Help center access</li>
 							</ul>
-							<button type="button" className="shadow w-50 btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#staticBackdropLive">
+							<button
+								type="button"
+								className="shadow w-50 btn btn-outline-dark"
+								data-bs-toggle="modal"
+								data-bs-target="#staticBackdropLive">
 								Pay 15USD
 							</button>
 						</div>
@@ -49,20 +56,29 @@ export default function Fanclub() {
 								<li>Phone and email support</li>
 								<li>all you can eat access</li>
 							</ul>
-							<button type="button" className="shadow w-50 btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#staticBackdropLive">
+							<button
+								type="button"
+								className="shadow w-50 btn btn-outline-dark"
+								data-bs-toggle="modal"
+								data-bs-target="#staticBackdropLive">
 								Pay 29USD
 							</button>
 						</div>
 					</div>
 				</div>
 			</div>
-			<br /><br />
-
-			<Checkout/><br /><br />
-
-			<h2 className="display-6 text-center mb-4 fw-semibold">Compare plans</h2>
-			<br /><br /><br /><br />
-
+			<br />
+			<br />
+			<Checkout />
+			<br />
+			<br />
+			<h2 className="display-6 text-center mb-4 fw-semibold">
+				Compare plans
+			</h2>
+			<br />
+			<br />
+			<br />
+			<br />
 			<div className="mx-3 shadow table-responsive">
 				<table className=" mb-0 table text-center">
 					<thead>
@@ -96,7 +112,7 @@ export default function Fanclub() {
 						</tr>
 						<tr>
 							<th scope="row" className="text-start">
-							something
+								something
 							</th>
 							<td></td>
 							<td>
@@ -115,7 +131,7 @@ export default function Fanclub() {
 					<tbody>
 						<tr>
 							<th scope="row" className="text-start">
-							something
+								something
 							</th>
 							<td>
 								<svg className="bi" width="24" height="24">
@@ -135,23 +151,7 @@ export default function Fanclub() {
 						</tr>
 						<tr>
 							<th scope="row" className="text-start">
-							something
-							</th>
-							<td></td>
-							<td>
-								<svg className="bi" width="24" height="24">
-									<use xlinkHref="#check" />
-								</svg>
-							</td>
-							<td>
-								<svg className="bi" width="24" height="24">
-									<use xlinkHref="#check" />
-								</svg>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row" className="text-start">
-							something
+								something
 							</th>
 							<td></td>
 							<td>
@@ -167,7 +167,23 @@ export default function Fanclub() {
 						</tr>
 						<tr>
 							<th scope="row" className="text-start">
-							something
+								something
+							</th>
+							<td></td>
+							<td>
+								<svg className="bi" width="24" height="24">
+									<use xlinkHref="#check" />
+								</svg>
+							</td>
+							<td>
+								<svg className="bi" width="24" height="24">
+									<use xlinkHref="#check" />
+								</svg>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row" className="text-start">
+								something
 							</th>
 							<td></td>
 							<td></td>

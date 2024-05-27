@@ -6,14 +6,16 @@ export default function Header() {
 		<header className="d-flex flex-wrap justify-content-center py-3 mb-4 ">
 			<nav className=" navbar navbar-expand-md navelement text-center fixed-top shadow">
 				<div className="container-fluid w-75">
-					<a className="navbar-brand text-decoration-none text-reset" href="#">
-					<Image
-					className="d-block mx-auto mb-0"
-					src="/logo-dark-wbg.svg"
-					alt="Your logo"
-					width={75}
-					height={75}
-				/>
+					<a
+						className="navbar-brand text-decoration-none text-reset"
+						href="#">
+						<Image
+							className="d-block mx-auto mb-0"
+							src="/logo-dark-wbg.svg"
+							alt="Your logo"
+							width={75}
+							height={75}
+						/>
 					</a>
 					<button
 						className="navbar-toggler"
@@ -30,22 +32,30 @@ export default function Header() {
 						id="navbarCollapse">
 						<ul className="navbar-nav navtxt me-auto mb-2 mb-md-0">
 							<li className="nav-item">
-								<a className="nav-link text-decoration-none text-reset" href="#home">
+								<a
+									className="nav-link text-decoration-none text-reset"
+									href="#home">
 									Home
 								</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link text-decoration-none text-reset" href="#about">
+								<a
+									className="nav-link text-decoration-none text-reset"
+									href="#about">
 									About
 								</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link text-decoration-none text-reset " href="#fanclub">
+								<a
+									className="nav-link text-decoration-none text-reset "
+									href="#fanclub">
 									Membership
 								</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link text-decoration-none text-reset " href="#contact">
+								<a
+									className="nav-link text-decoration-none text-reset "
+									href="#contact">
 									Contact/Booking
 								</a>
 							</li>

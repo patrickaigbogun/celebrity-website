@@ -3,7 +3,7 @@ import Image from "next/image";
 import ClipboardJS from "clipboard";
 
 export default function Checkoutmodal() {
-	new ClipboardJS(".btn");
+	// new ClipboardJS(".btn");
 	return (
 		<div className="container-fluid">
 			<h4>

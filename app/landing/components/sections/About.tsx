@@ -4,11 +4,10 @@ export default function About() {
 			<div className="py-5 justify-content-center">
 				<h1 className="display-5 fw-bold text-center">About</h1>
 				<p className=" fs-4 fw-4">
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-					Dolor consequuntur consectetur numquam praesentium nostrum
-					tempora hic quia recusandae consequatur aut, quasi eaque cum
-					natus repellat, voluptate blanditiis voluptatibus minus
-					totam.
+				This platform was created by my team , 
+				To reach out to my great fans that has been with me and supported me through my career,
+				 couldn’t find away to appreciate you all for following me through this journey this is my 
+				 official page for reaching out to my team and I personally
 				</p>
 				<p className="mb-4 fs-4 fw-4">
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit.

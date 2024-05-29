@@ -9,12 +9,6 @@ export default function About() {
 				 couldn’t find away to appreciate you all for following me through this journey this is my 
 				 official page for reaching out to my team and I personally
 				</p>
-				<p className="mb-4 fs-4 fw-4">
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-					Repudiandae, velit, ratione totam dolorem, quae dicta error
-					et dolorum dolores doloremque culpa vel saepe! Minus sed
-					deleniti nihil repudiandae neque! Doloremque?
-				</p>
 				<button className="shadow btn btn-dark btn-lg" type="button">
 					<a
 						className="text-decoration-none text-reset"

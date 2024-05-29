@@ -15,11 +15,7 @@ export default function Home({}: Props) {
 				<h1 className="display-5 fw-bold">Home</h1>
 				<div className="col-lg-6 mx-auto">
 					<p className="mb-4 fs-4 fw-4">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Illum, incidunt doloribus! Dolor nobis modi cumque quis
-						eligendi minus sequi ipsum voluptates dolore vitae,
-						aspernatur enim nostrum blanditiis consequatur
-						distinctio autem.
+					Message my private telegram page or speak to my manager to talk more with me
 					</p>
 					<div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
 						<button

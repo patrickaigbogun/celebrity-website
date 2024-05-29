@@ -11,6 +11,9 @@ export default function ContactUs() {
 				<h1 className="display-7 text-center mb-4 fw-bold">
 					Contact & Booking
 				</h1>
+				<p className="text-center">
+				Fill in your information down below and directly message the private telegram with payment proof when done for successful meet up booking
+				</p>
 				<div className="p-3">
 					<form className="p-3 rounded">
 						<div className="mb-3">

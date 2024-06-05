@@ -48,7 +48,7 @@ export default function Header() {
 							<li className="nav-item">
 								<a
 									className="nav-link text-decoration-none text-reset "
-									href="#fanclub">
+									href="#membership">
 									Membership
 								</a>
 							</li>

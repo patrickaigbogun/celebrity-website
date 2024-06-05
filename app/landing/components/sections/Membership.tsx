@@ -3,7 +3,7 @@ import Checkout from "./Checkout";
 
 export default function Fanclub() {
 	return (
-		<section className="home container-md mb-4 pt-5 my-5" id="fanclub">
+		<section className="home container-md mb-4 pt-5 my-5" id="membership">
 			<svg xmlns="http://www.w3.org/2000/svg" className="svg">
 				<symbol id="check" viewBox="0 0 16 16">
 					<title>Check</title>

@@ -15,9 +15,9 @@ export default function Fanclub() {
 			</h1>{" "}
 			<br />
 			<br />
-			<div className=" row mb-3 text-center ">
-				<div className="col-md-6">
-					<div className="card mb-4 rounded-3 shadow">
+			<div className=" row bg-dark py-0 mb-3 text-center ">
+				<div className="col-md-6 h-100 py-0">
+					<div className="card mb-4 rounded-3 shadow h-100 py-0">
 						<div className="card-header py-3">
 							<h4 className="fw-semibold">VIP PREMIUM
 </h4>
@@ -73,9 +73,9 @@ export default function Fanclub() {
 
 			<div className="container text-center my-3 fs-4" >
 			Your membership card is your gateway to exclusive meetups! 
-			Gain access to special events and spend quality time with the person you're eager to meet. 
+			Gain access to special events and spend quality time with the person you&apos;re eager to meet. 
 			Connect, engage, and enjoy unique experiences designed just for members. 
-			Don't miss out—join us and make every moment count!
+			Don&apos;t miss out—join us and make every moment count!
 			</div>
 			<div className="my-4 mx-4 p-4 shadow table-responsive">
 				<table className=" mx-0 table text-center">

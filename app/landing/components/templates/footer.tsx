@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Footer() {
 	return (
-		<footer className="footer mt-auto py-3 bg-light">
-			<div className="container">
+		<footer className="footer mt-3 py-3 bg-light">
+			<div className="container py-3">
 				<p className="fs-6 fw-light" >
 				This is a private meeting different from public appearance, It is expected of you that this private meeting is kept private within and only to yourself, do not reveal location to anyone for security reasons and to avoid unnecessary crowed, media personalities/journalists, gift presentations and autograph signing
 				</p>

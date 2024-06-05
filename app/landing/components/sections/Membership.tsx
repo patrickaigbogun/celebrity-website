@@ -15,7 +15,7 @@ export default function Fanclub() {
 			</h1>{" "}
 			<br />
 			<br />
-			<div className=" row bg-dark py-0 mb-3 text-center ">
+			<div className=" row py-0 mb-3 text-center ">
 				<div className="col-md-6 h-100 py-0">
 					<div className="card mb-4 rounded-3 shadow h-100 py-0">
 						<div className="card-header py-3">

@@ -20,7 +20,7 @@ export default function Checkoutmodal() {
 					type="text"
 					value={"btc address eg; 0bxiisondosoosonsca"}
 				/>
-				<button className="btn" data-clipboard-target="form-control">
+				<button className="btn btn-outline-secondary" data-clipboard-target="form-control">
 					<Image
 						src="/bx-clipboard.svg"
 						alt="clipboard"

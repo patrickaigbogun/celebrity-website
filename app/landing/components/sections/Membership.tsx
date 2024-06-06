@@ -82,7 +82,6 @@ export default function Fanclub() {
 					<thead>
 						<tr>
 							<th className="th">Priviledge</th>
-							<th className="th">Free Membership</th>
 							<th className="th">Initiate</th>
 							<th className="th">Inner Circle</th>
 						</tr>
@@ -102,17 +101,11 @@ export default function Fanclub() {
 									<use xlinkHref="#check" />
 								</svg>
 							</td>
-							<td>
-								<svg className="bi" width="24" height="24">
-									<use xlinkHref="#check" />
-								</svg>
-							</td>
 						</tr>
 						<tr>
 							<th scope="row" className="text-start">
 								something
 							</th>
-							<td></td>
 							<td>
 								<svg className="bi" width="24" height="24">
 									<use xlinkHref="#check" />
@@ -132,59 +125,7 @@ export default function Fanclub() {
 								something
 							</th>
 							<td>
-								<svg className="bi" width="24" height="24">
-									<use xlinkHref="#check" />
-								</svg>
 							</td>
-							<td>
-								<svg className="bi" width="24" height="24">
-									<use xlinkHref="#check" />
-								</svg>
-							</td>
-							<td>
-								<svg className="bi" width="24" height="24">
-									<use xlinkHref="#check" />
-								</svg>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row" className="text-start">
-								something
-							</th>
-							<td></td>
-							<td>
-								<svg className="bi" width="24" height="24">
-									<use xlinkHref="#check" />
-								</svg>
-							</td>
-							<td>
-								<svg className="bi" width="24" height="24">
-									<use xlinkHref="#check" />
-								</svg>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row" className="text-start">
-								something
-							</th>
-							<td></td>
-							<td>
-								<svg className="bi" width="24" height="24">
-									<use xlinkHref="#check" />
-								</svg>
-							</td>
-							<td>
-								<svg className="bi" width="24" height="24">
-									<use xlinkHref="#check" />
-								</svg>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row" className="text-start">
-								something
-							</th>
-							<td></td>
-							<td></td>
 							<td>
 								<svg className="bi" width="24" height="24">
 									<use xlinkHref="#check" />

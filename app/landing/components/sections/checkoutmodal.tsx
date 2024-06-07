@@ -1,6 +1,8 @@
 import React from "react";
-import Image from "next/image";
-import ClipboardJS from "clipboard";
+import Clipboardbtn from "../templates/clipboardbtn";
+import Inputbar from "../templates/inputbar";
+// import Image from "next/image";
+// import ClipboardJS from "clipboard";
 
 export default function Checkoutmodal() {
 	// new ClipboardJS(".btn");
@@ -14,20 +16,7 @@ export default function Checkoutmodal() {
 			</small>{" "}
 			<br />
 			<br />
-			<div className="d-flex">
-				<input
-					className="form-control w-75 align-center"
-					type="text"
-					value={"btc address eg; 0bxiisondosoosonsca"}
-				/>
-				<button className="btn btn-outline-secondary" data-clipboard-target="form-control">
-					<Image
-						src="/bx-clipboard.svg"
-						alt="clipboard"
-						width={25}
-						height={25}></Image>
-				</button>
-			</div>
+			<Inputbar/>
 			<br />
 			<br />
 			<span>

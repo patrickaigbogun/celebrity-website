@@ -32,7 +32,7 @@ export default function Fanclub() {
 								className="shadow w-50 btn btn-outline-dark"
 								data-bs-toggle="modal"
 								data-bs-target="#staticBackdropLive">
-								Pay 1,945USD
+								Pay $1,945
 							</button>
 						</div>
 					</div>
@@ -53,7 +53,7 @@ export default function Fanclub() {
 								className="shadow w-50 btn btn-outline-dark"
 								data-bs-toggle="modal"
 								data-bs-target="#staticBackdropLive">
-								Pay 2,557USD
+								Pay $2,557
 							</button>
 						</div>
 					</div>
@@ -77,14 +77,14 @@ export default function Fanclub() {
 					<thead>
 						<tr>
 							<th className="th">Priviledge</th>
-							<th className="th">Initiate</th>
-							<th className="th">Inner Circle</th>
+							<th className="th">VIP PREMIUM</th>
+							<th className="th">VVIP PREMIUM</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<th scope="row" className="text-start">
-								something
+							Private Meet and Greet
 							</th>
 							<td>
 								<svg className="bi" width="24" height="24">
@@ -99,7 +99,7 @@ export default function Fanclub() {
 						</tr>
 						<tr>
 							<th scope="row" className="text-start">
-								something
+							1-Month Vacation Option	
 							</th>
 							<td>
 								<svg className="bi" width="24" height="24">
@@ -117,7 +117,7 @@ export default function Fanclub() {
 					<tbody>
 						<tr>
 							<th scope="row" className="text-start">
-								something
+							Access to Special Events	
 							</th>
 							<td>
 							</td>

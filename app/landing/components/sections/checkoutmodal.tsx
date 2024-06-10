@@ -1,5 +1,5 @@
 import React from "react";
-import Clipboardbtn from "../templates/clipboardbtn";
+// import Clipboardbtn from "../templates/clipboardbtn";
 import Inputbar from "../templates/inputbar";
 // import Image from "next/image";
 // import ClipboardJS from "clipboard";
@@ -13,7 +13,7 @@ export default function Checkoutmodal() {
 			</h4>
 			<small className="text-muted">
 				For security and anonymity, no direct transfer from the site.
-			</small>{" "}
+			</small>
 			<br />
 			<br />
 			<Inputbar/>
@@ -30,7 +30,7 @@ export default function Checkoutmodal() {
 					<small className="text-muted">
 						*eg; you want the initiate membership(20USD), transfer
 						20USD worth of crypto.
-					</small>{" "}
+					</small>
 				</li>
 				<li>
 					Get your proof of funds ready (can be a screenshot from your

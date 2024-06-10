@@ -41,14 +41,17 @@ export default function Checkout() {
 								data-bs-dismiss="modal">
 								Close
 							</button>
-							<button
+							{/* <button
 								type="button"
-								className="btn btn-outline-secondary">
-								Telegram
-								<svg className="bi" width="24" height="24">
+								className="btn btn-outline-secondary"> */}
+								<a className="btn btn-outline-secondary text-decoration-none text-reset" href="https://t.me/qualified5"  target="_blank">
+									Telegram
+									<svg className="bi" width="24" height="24">
 									<use xlinkHref="#telegram" />
-								</svg>
-							</button>
+									</svg>
+								</a>
+								
+							{/* </button> */}
 						</div>
 					</div>
 				</div>

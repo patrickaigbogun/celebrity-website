@@ -31,11 +31,13 @@ export default function Home({}: Props) {
 						</button>
 						<button
 							type="button"
-							className="shadow btn btn-outline-dark btn-lg gap-3 px-4">
-							<a className="text-decoration-none text-reset" href="#">Telegram</a>
-							<svg className="bi" width="24" height="24">
+							className="shadow btn btn-outline-dark btn-lg px-4">
+							<a className="text-decoration-none text-reset" href="https://t.me/qualified5" target="_blank">
+								Telegram
+								<svg className="bi" width="24" height="24">
 								<use xlinkHref="#telegram" />
-							</svg>
+								</svg>
+							</a>
 						</button>
 					</div>
 				</div>

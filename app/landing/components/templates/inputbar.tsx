@@ -19,7 +19,7 @@ const Inputbar = () => {
 
 
   return (
-    <div className="d-flex input-group">
+    <div className="d-flex input-group my-4">
     <input
     ref={inputRef}
     className='form-control w-75 align-center'

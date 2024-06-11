@@ -28,9 +28,7 @@ export default function RootLayout({
 					rel="stylesheet"
 					href="bootstrap5/dist/css/bootstrap.min.css"></link>
 				<link rel="stylesheet" href="/style.css" />
-				<Script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></Script>
 				<Script src="bootstrap5/dist/js/bootstrap.min.js"></Script>
-				<Script src="clipboard.min.js"></Script>
 			</head>
 			<body className="body">
 				<Header />

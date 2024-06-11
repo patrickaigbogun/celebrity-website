@@ -1,5 +1,7 @@
 import React from "react";
-import InputbarContact from "../templates/inputbarcontact";
+import ContactForm from "../templates/emailjscontact";
+// import InputbarContact from "../templates/inputbarcontact";
+
 
 export default function ContactUs() {
   return (
@@ -17,7 +19,8 @@ export default function ContactUs() {
         </p>
         <div className="p-3">
           <form className="p-3 rounded">
-            <InputbarContact />
+            <ContactForm/>
+            {/* <InputbarContact /> */}
             <div className="text-center">
               <button type="submit" className="btn btn-dark">
                 Submit

@@ -33,28 +33,21 @@ export default function Header() {
 						<ul className="navbar-nav navtxt me-auto mb-2 mb-md-0">
 							<li className="nav-item">
 								<a
-									className="nav-link text-decoration-none text-reset"
+									className="fw-semibold nav-link text-decoration-none text-reset"
 									href="#home">
 									Home
 								</a>
 							</li>
 							<li className="nav-item">
 								<a
-									className="nav-link text-decoration-none text-reset"
-									href="#about">
-									About
-								</a>
-							</li>
-							<li className="nav-item">
-								<a
-									className="nav-link text-decoration-none text-reset "
+									className="fw-semibold nav-link text-decoration-none text-reset "
 									href="#membership">
 									Membership
 								</a>
 							</li>
 							<li className="nav-item">
 								<a
-									className="nav-link text-decoration-none text-reset "
+									className="fw-semibold  nav-link text-decoration-none text-reset "
 									href="#contact">
 									Contact/Booking
 								</a>

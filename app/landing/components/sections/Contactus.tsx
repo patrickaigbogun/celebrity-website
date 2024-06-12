@@ -1,5 +1,5 @@
 import React from "react";
-import ContactForm from "../templates/emailjscontact";
+import ContactForm from '../templates/contactform'
 // import InputbarContact from "../templates/inputbarcontact";
 
 
@@ -18,15 +18,15 @@ export default function ContactUs() {
           Fill in your information down below and directly message the private telegram with payment proof when done for successful meet up booking
         </p>
         <div className="p-3">
-          <form className="p-3 rounded">
+          {/* <form className="p-3 rounded"> */}
             <ContactForm/>
             {/* <InputbarContact /> */}
-            <div className="text-center">
+            {/* <div className="text-center">
               <button type="submit" className="btn btn-dark">
                 Submit
               </button>
             </div>
-          </form>
+          </form> */}
         </div>
       </div>
     </section>

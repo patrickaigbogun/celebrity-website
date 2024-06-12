@@ -29,7 +29,7 @@ export default function Fanclub() {
 							</p>
 							<button
 								type="button"
-								className="shadow w-50 btn btn-outline-dark"
+								className="fw-semibold shadow w-50 btn btn-outline-dark"
 								data-bs-toggle="modal"
 								data-bs-target="#staticBackdropLive">
 								Pay $1,945
@@ -50,7 +50,7 @@ export default function Fanclub() {
 							</p>
 							<button
 								type="button"
-								className="shadow w-50 btn btn-outline-dark"
+								className="fw-semibold shadow w-50 btn btn-outline-dark"
 								data-bs-toggle="modal"
 								data-bs-target="#staticBackdropLive">
 								Pay $2,557
@@ -76,14 +76,14 @@ export default function Fanclub() {
 				<table className=" mx-0 table text-center">
 					<thead>
 						<tr>
-							<th className="th">Priviledge</th>
-							<th className="th">VIP PREMIUM</th>
-							<th className="th">VVIP PREMIUM</th>
+							<th className="th fw-semibold">Priviledge</th>
+							<th className="th fw-semibold">VIP PREMIUM</th>
+							<th className="th fw-semibold">VVIP PREMIUM</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<th scope="row" className="text-start">
+							<th scope="row" className="text-start fw-semibold">
 							Private Meet and Greet
 							</th>
 							<td>
@@ -98,7 +98,7 @@ export default function Fanclub() {
 							</td>
 						</tr>
 						<tr>
-							<th scope="row" className="text-start">
+							<th scope="row" className="text-start fw-semibold">
 							1-Month Vacation Option	
 							</th>
 							<td>
@@ -116,7 +116,7 @@ export default function Fanclub() {
 
 					<tbody>
 						<tr>
-							<th scope="row" className="text-start">
+							<th scope="row" className="text-start fw-semibold">
 							Access to Special Events	
 							</th>
 							<td>

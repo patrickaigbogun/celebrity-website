@@ -15,7 +15,7 @@ export default function Home({}: Props) {
 				
 				<div className="container mx-auto">
 
-					<h1 className=" display-5 text-center fw-bold my-2">Page Title</h1>
+					<h1 className=" display-5 text-center fw-bold my-2">Exclusive Access and Personal Engagement with Sara Gilbert</h1>
 					<p className="my-5 text-center fs-2" >Message my private telegram page or speak to my manager to talk more with me</p>
 					<p className=" lead mt-0 mb-3 text-center fs-5">
 				This platform was created by my team , 

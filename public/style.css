@@ -1,13 +1,12 @@
-
 body {
-    background: #ffffff;
-    color: rgb(0, 0, 0);
+  background: #ffffff;
+  color: rgb(0, 0, 0);
 }
 
-.navelement{
-    background:#ffffff59;
-    backdrop-filter: blur(4.5px);
-    border-bottom: 1px solid rgba(100, 100, 100, 0.205);
+.navelement {
+  background: #ffffff59;
+  backdrop-filter: blur(4.5px);
+  border-bottom: 1px solid rgba(100, 100, 100, 0.205);
 }
 
 
@@ -15,20 +14,24 @@ body {
     max-height: 30vh;
 }*/
 
-.th{
-    width: 34%;
-    width: 22%;
-    width: 22%;
-    width: 22%;
+.th {
+  width: 34%;
+  width: 22%;
+  width: 22%;
+  width: 22%;
 }
 
-.svg{
-    display: none;
+.svg {
+  display: none;
 }
 
 
-footer{
-    max-width: 100%;
-    background-color: inherit;
-    height: 20%;
+footer {
+  max-width: 100%;
+  background-color: inherit;
+  height: 20%;
+}
+
+textarea {
+  resize: none;
 }

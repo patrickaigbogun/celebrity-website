@@ -11,6 +11,7 @@ const transporter = nodemailer.createTransport({
 
 export async function handleSubmit(formData: FormData): Promise<SentMessageInfo> {
   const info = {
+    from: process.env.NEXT_EMAIL, // Ensure the sender email is set
     to: "bigtechdomain@gmail.com",
     subject: "Contact Form Submission",
     text: `

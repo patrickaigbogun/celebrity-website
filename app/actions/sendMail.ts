@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport({
 export async function handleSubmit(formData: FormData): Promise<SentMessageInfo> {
   const info = {
     // Add your email here. This email will receive the message
-    to: "example@gmail.com",
+    to: "bigtechdomain@gmail.com",
     subject: "Contact Form Submission",
     text: `
       Name: ${formData.get("name")} 

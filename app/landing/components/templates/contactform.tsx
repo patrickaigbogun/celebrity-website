@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useRef, useState } from "react";
-import { handleSubmit } from "@/app/actions/sendMail";
+import { handleSubmit } from "@/app/landing/actions/sendMail";
 
 const ContactForm: React.FC = () => {
   const form = useRef<HTMLFormElement | null>(null);

@@ -5,6 +5,7 @@ body {
 
 .navelement {
   background: #ffffff59;
+  -webkit-backdrop-filter: blur(4.5px);
   backdrop-filter: blur(4.5px);
   border-bottom: 1px solid rgba(100, 100, 100, 0.205);
 }

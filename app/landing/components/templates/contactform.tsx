@@ -1,66 +1,75 @@
 "use client";
 
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import React, { useRef, useState } from "react";
+import { handleSubmit } from "@/app/landing/actions/sendMail";
 
 const ContactForm: React.FC = () => {
-	const form = useRef<HTMLFormElement | null>(null);
+  const form = useRef<HTMLFormElement | null>(null);
+  const [submitting, setSubmitting] = useState<boolean>(false);
 
-	const sendEmail = (e: React.FormEvent) => {
-		e.preventDefault();
+  const sendEmail = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!form.current) return;
 
-		if (form.current) {
-			emailjs
-				.sendForm(
-					"contact_service",
-					"contact_form",
-					form.current,
-					"-L5PPLlRxAd-XMGs8"
-				)
-				.then(
-					() => {
-						console.log("SUCCESS!");
-						const inputFields = document.getElementsByClassName("form-control");
-						for (let i = 0; i < inputFields.length; i++) {
-							(inputFields[i] as HTMLInputElement).value = "";
-						}
-					},
-					(error) => {
-						console.log("FAILED...", error.text);
-					}
-				);
-		}
-	};
+    setSubmitting(true);
 
-	return (
-		<form ref={form} onSubmit={sendEmail}>
-			<div className="my-3">
-				<label className="form-label fw-semibold">Name</label>
-				<input
-					type="text"
-					className="form-control"
-					placeholder="John Doe"
-				/>
-			</div>
-			<div className="my-3">
-				<label className="form-label fw-semibold">Email</label>
-				<input
-					type="email"
-					className="form-control"
-					placeholder="johndoe@gmail.com"
-				/>
-			</div>
-			<div className="my-3">
-				<label className="form-label fw-semibold">Message</label>
-				<textarea className="form-control" rows={3}></textarea>
-			</div>
-			<div className="text-center my-3">
-				<button className="btn btn-dark" type="submit">
-					SEND
-				</button>
-			</div>
-		</form>
-	);
+    try {
+      const res = await handleSubmit(new FormData(form.current));
+      if (res && res.accepted.length > 0) {
+        form.current.reset();
+        alert("Message sent successfully");
+      } else {
+        alert("Message failed to send");
+      }
+    } catch (error) {
+      console.error('Submission error:', error);
+      alert("An unexpected error occurred. Please try again later.");
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
+  return (
+    <form ref={form} onSubmit={sendEmail}>
+      <div className="my-3">
+        <label className="form-label fw-semibold">Name</label>
+        <input
+          name="name"
+          type="text"
+          required
+          className="form-control"
+          placeholder="John Doe"
+        />
+      </div>
+      <div className="my-3">
+        <label className="form-label fw-semibold">Email</label>
+        <input
+          name="email"
+          type="email"
+          required
+          className="form-control"
+          placeholder="johndoe@gmail.com"
+        />
+      </div>
+      <div className="my-3">
+        <label className="form-label fw-semibold">Message</label>
+        <textarea
+          required
+          className="form-control"
+          rows={3}
+          name="message"
+        />
+      </div>
+      <div className="text-center my-3">
+        <button
+          disabled={submitting}
+          className="btn btn-dark"
+          type="submit">
+          Submit
+        </button>
+      </div>
+    </form>
+  );
 };
 
 export default ContactForm;
